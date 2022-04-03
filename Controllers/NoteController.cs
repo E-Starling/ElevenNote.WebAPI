@@ -27,7 +27,7 @@ namespace ElevenNote.WebAPI.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var noteService = CreateNoteService();
+            var service = CreateNoteService();
 
             if (!service.CreateNote(note))
                 return InternalServerError();
