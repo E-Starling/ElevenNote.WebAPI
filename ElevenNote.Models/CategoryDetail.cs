@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ElevenNote.Data;
 
+
 namespace ElevenNote.Models
 {
     public class CategoryDetail

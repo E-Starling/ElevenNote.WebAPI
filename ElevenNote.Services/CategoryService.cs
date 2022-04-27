@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using ElevenNote.Data;
 using ElevenNote.Models;
-
 namespace ElevenNote.Services
 {
     public class CategoryService
